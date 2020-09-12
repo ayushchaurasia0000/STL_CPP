@@ -1,0 +1,10 @@
+#include<iostream>
+#include<array>
+
+using namespace std;
+int main()
+{
+std::array<int,5>ayush={1,2,3,4,5};
+std::cout <<ayush.at(2);
+return 0;
+}
