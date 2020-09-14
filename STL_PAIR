@@ -1,0 +1,10 @@
+#include<iostream>
+
+using namespace std;
+int main()
+{
+pair<int,string>a;
+a.make_pair(1,"ayush");
+std::cout <<a.first<<endl<<b.second;
+return 0;
+}
