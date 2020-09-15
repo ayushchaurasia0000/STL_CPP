@@ -1,0 +1,22 @@
+#include<iostream>
+#include<vector>
+#include<algorithm>
+
+using namespace std;
+int main()
+{
+std::vector<int>a;
+int size,b;
+std::cin>>size;
+for(int i=0;i<size;i++)
+{
+std::cin>>b;
+a.push_back(b);
+}
+sort(a.begin(),a.end());
+for(int j=0;j<size;j++)
+std::cout <<a[j]<<endl;
+
+return 0;
+
+}
