@@ -1,0 +1,12 @@
+#include<iostream>
+#include<tuple>
+
+using namespace std;
+int main()
+{
+tuple<int,string,string>a;
+a=make_tuple(1,"ayush","chaurasia");
+std::cout <<get<0>(a);
+std::cout <<endl<<get<1>(a);
+return 0;
+}
