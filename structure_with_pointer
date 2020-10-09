@@ -9,8 +9,8 @@ int main()
 {
     struct ayush a;
     struct ayush *p=&a;
-    int q=(*p).b=20;
-    int w =p->b=40;
+    int q=(*p).b=20; //  this is also same to give the value
+    int w =p->b=40;    // when you use pointer in structure or class 
     std::cout <<q<<endl<<w;
     return 0;
 }
