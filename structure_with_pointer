@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+struct ayush
+{
+    int  b;
+};
+int main()
+{
+    struct ayush a;
+    struct ayush *p=&a;
+    int q=(*p).b=20;
+    int w =p->b=40;
+    std::cout <<q<<endl<<w;
+    return 0;
+}
